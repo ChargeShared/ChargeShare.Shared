@@ -18,5 +18,6 @@ public class AdresModel
     public string Province { get; set; }
     public string HouseNumber { get; set; }
     public string HouseAddition { get; set; }
+    public string TestProp { get; set; }
 }
 
