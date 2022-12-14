@@ -2,7 +2,7 @@
 
 namespace Shared.Models;
 
-public class ChargeSharedUserModel : IdentityUser
+public class ChargeSharedUserModel : IdentityUser<int>
 {
     public List<AdresModel> Aresses { get; set; }
     public string FirstName { get; set; }
@@ -11,7 +11,7 @@ public class ChargeSharedUserModel : IdentityUser
     public bool IsValidUser { get; set; }
     public DateTime DateOfBirth { get; set; }
 
-    public int Age
+    /*public int Age
     {
         get
         {
@@ -24,5 +24,5 @@ public class ChargeSharedUserModel : IdentityUser
 
             return age;
         }
-    }
+    }*/
 }
