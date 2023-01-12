@@ -11,7 +11,7 @@ public class ChargeSharedUserModel : IdentityUser<int>
     public bool IsValidUser { get; set; }
     public DateTime DateOfBirth { get; set; }
 
-    /*public int Age
+    public int Age
     {
         get
         {
@@ -24,5 +24,5 @@ public class ChargeSharedUserModel : IdentityUser<int>
 
             return age;
         }
-    }*/
+    }
 }
